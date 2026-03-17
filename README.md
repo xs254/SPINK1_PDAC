@@ -20,4 +20,4 @@ We also analyzed change in transcription (RNA-seq), chromatin accessibility (ATA
 - See [RNA_ATAC_CutNTag_integrated_visualization_v2](CutNTag/RNA_ATAC_CutNTag_integrated_visualization_v2.R) for integrated visualization of RNA, ATAC, Cut&Tag results for exemplary genes.
 
 ## Pearson correlation analysis of pixel intensities from individual cell
-We analyzed the colocalization of SPINK1, COL18A1 and GOLGA2 (golgi apparatus marker) by quantifying Pearson correlation of pixel intensities of individual segmented cells.
+We analyzed the colocalization of SPINK1, COL18A1 and GOLGA2 (golgi apparatus marker) by quantifying Pearson correlation of pixel intensities of individual segmented cells. See [correlation_for_colocalization](Image_Analysis/correlation_for_colocalization.m) for details.
