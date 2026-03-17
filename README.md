@@ -10,8 +10,14 @@ The atlas is originally from [Ryota et al.](https://pubmed.ncbi.nlm.nih.gov/3584
 Therefore, we first corrected these mistakes (see [scPDAC_all_cell_correction_and_integration](scRNASeq/scPDAC_all_cell_correction_and_integration.R)
 and [scPDAC_gene_symbol_update_and_merging](scRNASeq/scPDAC_gene_symbol_update_and_merging.R)) and then performed analysis focusing on SPINK1 (see [scPDAC_analysis_v4](scRNASeq/scPDAC_analysis_v4.R)) . 
 
-## Integrated analysis of RNA and ATAC seq for SPINK1 KO PANC-1 cell line
-We also analyzed change in transcription and chromatin accessibility in a SPINK1 KO PDAC cell line (PANC-1) and identified a group of stemness related genes with coherent change in both transcription level and chromatin accessibility.
+## Integrated analysis of RNA-seq, ATAC-seq, Cut&Tag-Seq for SPINK1 KO PANC-1 cell line
+We also analyzed change in transcription (RNA-seq), chromatin accessibility (ATAC-seq), and histone modifications (H3K4Me3 and H3K27Me3 Cut&Tag-seq) in SPINK1-KO cells (SPINK1-OE and SPINK1-KO for RNA-seq). The integrated analysis identified a group of stemness related genes with coherent change in histone modifications, chromatin accessibility and transcription. 
 - See [DEseq_for_SPINK1_TM59Z7](Bulk_RNA_ATAC/DEseq_for_SPINK1_TM59Z7.R) for DEseq of RNAseq data.
 - See [Analysis_for_SPINK1_TM59Z7](Bulk_RNA_ATAC/Analysis_for_SPINK1_TM59Z7.R) for DEseq results analysis and integrated analysis with ATAC-seq.
-- See [ATACseq_SPINK1_KO_v2](Bulk_RNA_ATAC/ATACseq_SPINK1_KO_v2.R) for the analysis of ATAC-seq data. 
+- See [ATACseq_SPINK1_KO_v2](Bulk_RNA_ATAC/ATACseq_SPINK1_KO_v2.R) for the analysis of ATAC-seq data.
+- See [CutNTag_csaw](CutNTag/CutNTag_csaw.R) for the differential sites calling by csaw.
+- See [CutNtag_analysis](CutNTag/CutNTag_analysis.R) for csaw results analysis and intergated analysis with RNA-seq and ATAC-seq.
+- See [RNA_ATAC_CutNTag_integrated_visualization_v2](CutNTag/RNA_ATAC_CutNTag_integrated_visualization_v2.R) for integrated visualization of RNA, ATAC, Cut&Tag results for exemplary genes.
+
+## Pearson correlation analysis of pixel intensities from individual cell
+We analyzed the colocalization of SPINK1, COL18A1 and GOLGA2 (golgi apparatus marker) by quantifying Pearson correlation of pixel intensities of individual segmented cells.
