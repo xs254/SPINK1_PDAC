@@ -1,5 +1,5 @@
 # SPINK1_PDAC
-This repository is a collection of all codes used for analysis of scRNAseq,RNAseq,ATACseq in the project of [SPINK1 PDAC](https://www.biorxiv.org/content/10.1101/2025.03.03.641251v1)
+This repository is a collection of all codes used for analysis of scRNA-seq, RNA-seq, ATAC-seq, Cut&Tag-seq and microscopy images in the manuscript [SPINK1-COL18A1 Crosstalk Shapes Epigenome and Drives Cancer Stemness in Pancreatic Ductal Adenocarcinoma](https://www.biorxiv.org/content/10.1101/2025.03.03.641251v1)
 ## A modified scRNAseq atlas of PDAC patients
 The atlas is originally from [Ryota et al.](https://pubmed.ncbi.nlm.nih.gov/35847558/), but during the analysis of this ATLAS, we noticed multiple mistakes:
 - log normalized counts is mistakenly used as raw counts for ~50% of cells. 
