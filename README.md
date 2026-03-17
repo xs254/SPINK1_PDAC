@@ -12,5 +12,6 @@ and [scPDAC_gene_symbol_update_and_merging](scRNASeq/scPDAC_gene_symbol_update_a
 
 ## Integrated analysis of RNA and ATAC seq for SPINK1 KO PANC-1 cell line
 We also analyzed change in transcription and chromatin accessibility in a SPINK1 KO PDAC cell line (PANC-1) and identified a group of stemness related genes with coherent change in both transcription level and chromatin accessibility.
-- See [DEseq_for_SPINK1](Bulk_RNA_ATAC/DEseq_for_SPINK1.R) for the analysis of RNAseq data.
-- See [ATACseq_SPINK1_KO_v2](Bulk_RNA_ATAC/ATACseq_SPINK1_KO_v2.R) for the analysis of ATAC and the intergated analysis of RNA and ATAC. 
+- See [DEseq_for_SPINK1_TM59Z7](Bulk_RNA_ATAC/DEseq_for_SPINK1_TM59Z7.R) for DEseq of RNAseq data.
+- See [Analysis_for_SPINK1_TM59Z7](Bulk_RNA_ATAC/Analysis_for_SPINK1_TM59Z7.R) for DEseq results analysis and integrated analysis with ATAC-seq.
+- See [ATACseq_SPINK1_KO_v2](Bulk_RNA_ATAC/ATACseq_SPINK1_KO_v2.R) for the analysis of ATAC-seq data. 
